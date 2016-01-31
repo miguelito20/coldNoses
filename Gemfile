@@ -14,7 +14,8 @@ gem 'puma'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '>= 3.2'
 gem 'high_voltage'
-gem 'gibbon' #mailchimp api, do you want to incorperate mailchimp into this?
+gem 'gibbon' #mailchimp api, do you want to incorperate mailchimp into this? Patrick Response: Yes
+gem 'simple_calendar', '~> 2.0'
 # gem 'bcrypt', '~> 3.1.7'
 # gem 'capistrano-rails', group: :development
 
