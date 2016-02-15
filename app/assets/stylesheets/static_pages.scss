@@ -4,48 +4,53 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
-a {
-  color: #fff;
+/* Set padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 15px;
+  padding-right: 15px;
 }
+<<<<<<< HEAD
 .banner {
   top: -10px;
   background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), image-url("pug.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 75vh;
+  min-height: 80vh;
 }
 .banner-text {
-  padding-top: 35vh;
+  padding-top: 30vh;
+=======
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+  max-width: 280px;
 }
-.banner-text h1 {
-  color: #fff;
-  font-size: 7.4em;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
+/* styles for validation helpers */
+.field-validation-error {
+  color: #b94a48;
+>>>>>>> parent of 5f0aec7... Banner and devise debug messages temp removed
 }
-.banner-text h2 {
-  color: #fff;
-  font-size: 5.5em;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+.field-validation-valid {
+  display: none;
 }
-.banner-text p {
-  color: #fff;
-  font-size: 22px;
-  font-weight: 300;
-  margin-bottom: 80px;
+input.input-validation-error {
+  border: 1px solid #b94a48;
 }
-.banner-text .btn {
-  width: 20%;
-  height: 40px;
+input[type="checkbox"].input-validation-error {
+  border: 0 none;
 }
-.banner-text .btn-warning {
-  background-color: #ffa400;
+.validation-summary-errors {
+  color: #b94a48;
 }
+.validation-summary-valid {
+  display: none;
+}
+<<<<<<< HEAD
 .navbar {
   top: -5px;
   left: -10px;
@@ -69,5 +74,10 @@ a {
   margin-right: 0.7vw;
   text-transform: uppercase;
 }
+.main {
+  margin-top: 50px;
+}
 
+=======
+>>>>>>> parent of 5f0aec7... Banner and devise debug messages temp removed
 
