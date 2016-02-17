@@ -12,7 +12,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-<<<<<<< HEAD
 .banner {
   top: -10px;
   background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), image-url("pug.jpg");
@@ -23,17 +22,6 @@ body {
 }
 .banner-text {
   padding-top: 30vh;
-=======
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-  max-width: 280px;
-}
-/* styles for validation helpers */
-.field-validation-error {
-  color: #b94a48;
->>>>>>> parent of 5f0aec7... Banner and devise debug messages temp removed
 }
 .field-validation-valid {
   display: none;
@@ -50,7 +38,6 @@ input[type="checkbox"].input-validation-error {
 .validation-summary-valid {
   display: none;
 }
-<<<<<<< HEAD
 .navbar {
   top: -5px;
   left: -10px;
@@ -78,6 +65,4 @@ input[type="checkbox"].input-validation-error {
   margin-top: 50px;
 }
 
-=======
->>>>>>> parent of 5f0aec7... Banner and devise debug messages temp removed
 
